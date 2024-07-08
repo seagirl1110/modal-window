@@ -2,4 +2,49 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.btn-modal {
+  cursor: pointer;
+  border: 1;
+  /* .btn-modal--open */
+  /* .btn-modal--close */
+}
+.btn-modal--open {
+  padding: 5px 10px;
+}
+.btn-modal--close {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+}
+
+.modal-container {
+  background-color: rgba(177, 177, 177, 0.8);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.modal-body {
+  background-color: white;
+  max-width: 320px;
+  min-width: 300px;
+  padding: 25px 30px;
+  border-radius: 10px;
+  position: relative;
+  cursor: default;
+}
+
+.modal-hidden {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
